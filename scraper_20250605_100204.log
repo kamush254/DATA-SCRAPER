@@ -1,0 +1,122 @@
+2025-06-05 10:02:04,387 - INFO - Starting scraper...
+2025-06-05 10:02:04,387 - INFO - ====== WebDriver manager ======
+2025-06-05 10:02:06,519 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 10:02:06,960 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 10:02:07,425 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 10:02:09,832 - INFO - Scraping: restaurants in Nairobi, Kenya
+2025-06-05 10:02:09,833 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+Nairobi,+Kenya
+2025-06-05 10:02:30,471 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:02:30,497 - INFO - Found 20 listings
+2025-06-05 10:02:42,680 - INFO - Added business: Urban Eatery
+2025-06-05 10:02:56,246 - INFO - Added business: The Collective Restaurant and Art Gallery
+2025-06-05 10:03:09,900 - INFO - Added business: INTI - A Nikkei Experience
+2025-06-05 10:03:23,087 - INFO - Added business: The carnivore restaurant
+2025-06-05 10:03:36,514 - INFO - Added business: About Thyme Restaurant
+2025-06-05 10:03:50,258 - INFO - Added business: Harvest Restaurant
+2025-06-05 10:04:04,171 - INFO - Added business: CJ's
+2025-06-05 10:04:18,075 - INFO - Added business: Nairobi Street Kitchen
+2025-06-05 10:04:31,418 - INFO - Added business: Zen Garden
+2025-06-05 10:04:45,103 - INFO - Added business: Talisman
+2025-06-05 10:04:59,124 - INFO - Added business: Inca Restaurant
+2025-06-05 10:05:12,718 - INFO - Added business: Mawimbi Seafood Restaurant
+2025-06-05 10:05:26,013 - INFO - Added business: CJ'S - Kilimani
+2025-06-05 10:05:39,719 - INFO - Added business: Bambino - Kitchen & Bar
+2025-06-05 10:05:53,581 - INFO - Added business: Fogo Gaucho Westlands
+2025-06-05 10:06:07,745 - INFO - Added business: Mama Oliech Restaurant
+2025-06-05 10:06:20,957 - INFO - Added business: Sikia Restaurant
+2025-06-05 10:06:34,148 - INFO - Added business: CRAVE KENYA - KILIMANI
+2025-06-05 10:06:48,262 - INFO - Added business: Slate - Kitchen & Bar
+2025-06-05 10:07:01,710 - INFO - Added business: Shawarma Grill House
+2025-06-05 10:07:03,205 - INFO - Found 20 results
+2025-06-05 10:07:05,583 - INFO - Scraping: restaurants in Westlands, Nairobi
+2025-06-05 10:07:05,586 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+Westlands,+Nairobi
+2025-06-05 10:07:26,192 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:07:26,230 - INFO - Found 5 listings
+2025-06-05 10:07:38,427 - INFO - Added business: 
+2025-06-05 10:07:52,468 - INFO - Added business: 
+2025-06-05 10:08:05,883 - INFO - Added business: 
+2025-06-05 10:08:19,471 - INFO - Added business: 
+2025-06-05 10:08:33,147 - INFO - Added business: 
+2025-06-05 10:08:34,244 - INFO - Found 5 results
+2025-06-05 10:08:38,362 - INFO - Scraping: restaurants in Eastlands, Nairobi
+2025-06-05 10:08:38,363 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+Eastlands,+Nairobi
+2025-06-05 10:08:56,527 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:08:56,548 - INFO - Found 5 listings
+2025-06-05 10:09:08,733 - INFO - Added business: 
+2025-06-05 10:09:21,948 - INFO - Added business: 
+2025-06-05 10:09:35,548 - INFO - Added business: 
+2025-06-05 10:09:49,200 - INFO - Added business: 
+2025-06-05 10:10:03,030 - INFO - Added business: 
+2025-06-05 10:10:05,023 - INFO - Found 5 results
+2025-06-05 10:10:07,190 - INFO - Scraping: restaurants in South B & C, Nairobi
+2025-06-05 10:10:07,191 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+South+B+&+C,+Nairobi
+2025-06-05 10:10:26,712 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:10:26,740 - INFO - Found 5 listings
+2025-06-05 10:10:38,861 - INFO - Added business: 
+2025-06-05 10:10:52,992 - INFO - Added business: 
+2025-06-05 10:11:07,047 - INFO - Added business: 
+2025-06-05 10:11:20,820 - INFO - Added business: 
+2025-06-05 10:11:34,783 - INFO - Added business: 
+2025-06-05 10:11:35,899 - INFO - Found 5 results
+2025-06-05 10:11:39,847 - INFO - Scraping: restaurants in Kasarani, Nairobi
+2025-06-05 10:11:39,847 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+Kasarani,+Nairobi
+2025-06-05 10:11:58,712 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:11:58,768 - INFO - Found 5 listings
+2025-06-05 10:12:10,939 - INFO - Added business: 
+2025-06-05 10:12:24,292 - INFO - Added business: 
+2025-06-05 10:12:37,894 - INFO - Added business: 
+2025-06-05 10:12:51,812 - INFO - Added business: 
+2025-06-05 10:13:07,714 - INFO - Added business: 
+2025-06-05 10:13:09,398 - INFO - Found 5 results
+2025-06-05 10:13:13,033 - INFO - Scraping: restaurants in Embakasi, Nairobi
+2025-06-05 10:13:13,034 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+Embakasi,+Nairobi
+2025-06-05 10:13:32,017 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:13:32,052 - INFO - Found 5 listings
+2025-06-05 10:13:44,193 - INFO - Added business: 
+2025-06-05 10:13:58,296 - INFO - Added business: 
+2025-06-05 10:14:11,849 - INFO - Added business: 
+2025-06-05 10:14:25,884 - INFO - Added business: 
+2025-06-05 10:14:39,957 - INFO - Added business: 
+2025-06-05 10:14:41,143 - INFO - Found 5 results
+2025-06-05 10:14:45,697 - INFO - Scraping: restaurants in Langata, Nairobi
+2025-06-05 10:14:45,698 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+Langata,+Nairobi
+2025-06-05 10:15:04,393 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:15:04,414 - INFO - Found 5 listings
+2025-06-05 10:15:16,538 - INFO - Added business: 
+2025-06-05 10:15:30,128 - INFO - Added business: 
+2025-06-05 10:15:43,652 - INFO - Added business: 
+2025-06-05 10:15:57,237 - INFO - Added business: 
+2025-06-05 10:16:10,371 - INFO - Added business: 
+2025-06-05 10:16:11,783 - INFO - Found 5 results
+2025-06-05 10:16:15,921 - INFO - Scraping: restaurants in Dagoretti, Nairobi
+2025-06-05 10:16:15,921 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+Dagoretti,+Nairobi
+2025-06-05 10:16:34,889 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:16:34,909 - INFO - Found 5 listings
+2025-06-05 10:16:47,085 - INFO - Added business: 
+2025-06-05 10:17:01,166 - INFO - Added business: 
+2025-06-05 10:17:15,146 - INFO - Added business: 
+2025-06-05 10:17:29,175 - INFO - Added business: 
+2025-06-05 10:17:42,411 - INFO - Added business: 
+2025-06-05 10:17:44,225 - INFO - Found 5 results
+2025-06-05 10:17:46,670 - INFO - Scraping: restaurants in Starehe, Nairobi
+2025-06-05 10:17:46,670 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+Starehe,+Nairobi
+2025-06-05 10:18:13,220 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:18:13,244 - INFO - Found 5 listings
+2025-06-05 10:18:25,374 - INFO - Added business: 
+2025-06-05 10:18:38,798 - INFO - Added business: 
+2025-06-05 10:18:52,014 - INFO - Added business: 
+2025-06-05 10:19:06,019 - INFO - Added business: 
+2025-06-05 10:19:19,752 - INFO - Added business: 
+2025-06-05 10:19:20,780 - INFO - Found 5 results
+2025-06-05 10:19:25,602 - INFO - Scraping: restaurants in Mathare, Nairobi
+2025-06-05 10:19:25,602 - INFO - Navigating to: https://www.google.com/maps/search/restaurants+in+Mathare,+Nairobi
+2025-06-05 10:19:43,902 - WARNING - No results with primary selector, trying alternative...
+2025-06-05 10:19:43,923 - INFO - Found 5 listings
+2025-06-05 10:19:56,062 - INFO - Added business: 
+2025-06-05 10:20:09,825 - INFO - Added business: 
+2025-06-05 10:20:23,883 - INFO - Added business: 
+2025-06-05 10:20:37,055 - INFO - Added business: 
+2025-06-05 10:20:50,501 - INFO - Added business: 
+2025-06-05 10:20:51,774 - INFO - Found 5 results
+2025-06-05 10:20:56,541 - INFO - Successfully saved 65 records to nairobi_businesses.csv
+2025-06-05 10:20:59,847 - INFO - Browser closed successfully
