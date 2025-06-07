@@ -1,0 +1,39 @@
+# Web Scraper Setup Guide
+
+## 1. Install Python Dependencies
+```powershell
+pip install elasticsearch sentence-transformers scikit-learn nltk scrapy numpy
+```
+
+## 2. Setup Elasticsearch
+1. Download Elasticsearch from: https://www.elastic.co/downloads/elasticsearch
+2. Extract to: `C:\Users\LENOVO\Desktop\scrape\elasticsearch\elasticsearch-9.0.2`
+
+## 3. Start Elasticsearch
+Open PowerShell and run:
+```powershell
+cd "C:\Users\LENOVO\Desktop\scrape\elasticsearch\elasticsearch-9.0.2"
+.\bin\elasticsearch.bat
+```
+
+## 4. Verify Elasticsearch
+Open a new PowerShell window and run:
+```powershell
+curl http://localhost:9200
+```
+You should see a JSON response with Elasticsearch version information.
+
+## 5. Run the Scraper
+Open a new PowerShell window and run:
+```powershell
+cd "C:\Users\LENOVO\Desktop\scrape\maps_scraper"
+scrapy runspider scrape.py
+```
+
+## Troubleshooting
+- If Elasticsearch fails to start, ensure Java is installed
+- If PowerShell blocks execution, run:
+  ```powershell
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  ```
+- Keep Elasticsearch running while using the scraper
