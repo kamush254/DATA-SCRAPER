@@ -1,40 +1,56 @@
 # Business search configuration
 SEARCH_TERMS = [
-    "restaurants"
+    "restaurants",
+    "hotels",
+    "cafes",
+    "bars",
+    "shops"  # Add more search terms as needed
 ]
 
-# Target locations in Nairobi
+# Target locations in Kenya
 LOCATIONS = [
     "Nairobi, Kenya",
     "Mombasa, Kenya",
     "Kisumu, Kenya",
-    "Nakuru, Kenya",
-    "Eldoret, Kenya",
-    "Thika, Kenya",
-    "Nyeri, Kenya",
-    "Machakos, Kenya",
-    "Malindi, Kenya",
-    "Kitale, Kenya",
-    "Garissa, Kenya",
-    "Kakamega, Kenya",
-    "Lamu, Kenya",
-    "Naivasha, Kenya",
-    "Voi, Kenya"
+    
 ]
 
 # Scraping parameters
-MAX_RESULTS = 30
-MIN_DELAY = 3.5
-MAX_DELAY = 7.0
-MAX_RETRIES = 3
+MAX_RESULTS = 100  # Increased from 30 for more comprehensive results
+MIN_DELAY = 4.0    # Slightly increased to avoid rate limiting
+MAX_DELAY = 8.0
+MAX_RETRIES = 5    # Increased for better reliability
+REQUEST_TIMEOUT = 30  # New timeout parameter in seconds
+
+# Search filters
+MIN_RATING = 3.5
+REQUIRE_NO_WEBSITE = True
+EXCLUDE_CHAINS = True  # New parameter to filter out chain businesses
+MIN_REVIEWS = 3      # New parameter for minimum number of reviews
+BUSINESS_TYPES = [    # New parameter to filter by business type
+    "restaurant",
+    "hotel",
+    "bar"
+]
 
 # Output settings
-OUTPUT_FILE = "nairobi_businesses.csv"
+OUTPUT_FILE = "kenya_businesses.csv"  # More descriptive filename
 LOGS_DIR = "logs"
+ERROR_LOG = "error_log.txt"          # New separate error log file
 
-# Search radius (in kilometers)
+# Search parameters
 RADIUS_KM = 30
-# config.py (updated)
-# ... existing configs ...
-MIN_RATING = 3.5  # Minimum star rating
-REQUIRE_NO_WEBSITE = True  # Only businesses without websites
+MAX_PRICE_LEVEL = 4   # New parameter for price level filter (1-4)
+SORT_BY = "rating"    # New parameter: "rating" or "reviews"
+
+# Advanced settings
+ENABLE_PROXY = False  # New parameter for proxy support
+VERIFY_SSL = True     # New parameter for SSL verification
+DEBUG_MODE = False    # New parameter for debugging
+SAVE_HTML = False     # New parameter to save raw HTML responses
+# ...existing code...
+
+# Elasticsearch settings
+ELASTICSEARCH_HOSTS = ["http://localhost:9200"]  # Default Elasticsearch port
+ELASTICSEARCH_USERNAME = ""  # If authentication is needed
+ELASTICSEARCH_PASSWORD = ""  # If authentication is needed

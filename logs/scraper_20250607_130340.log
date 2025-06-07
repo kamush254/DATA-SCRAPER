@@ -1,0 +1,16 @@
+2025-06-07 13:03:40,801 - INFO - Starting scraper version 1.1
+2025-06-07 13:03:40,804 - INFO - ====== WebDriver manager ======
+2025-06-07 13:03:43,923 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 13:03:44,416 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 13:03:44,799 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 13:03:45,770 - INFO - WebDriver version 137.0.7151.68 selected
+2025-06-07 13:03:45,780 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-07 13:03:45,781 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-07 13:03:45,964 - INFO - Driver downloading response is 200
+2025-06-07 13:04:53,111 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-07 13:04:54,648 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\137.0.7151.68]
+2025-06-07 13:04:59,854 - INFO - Scraping: restaurants in Nairobi, Kenya
+2025-06-07 13:04:59,855 - INFO - Navigating to: https://www.google.com/maps/search/restaurants%20in%20Nairobi%2C%20Kenya
+2025-06-07 13:05:22,154 - INFO - Search results loaded
+2025-06-07 13:05:32,194 - INFO - Found 5 business links on page
+2025-06-07 13:09:37,924 - INFO - Found 10 business links on page
